@@ -15,4 +15,7 @@ class MainActivity : AppCompatActivity() {
         println("Printing from callMe() function.")
         println("This is cool (still printing from inside).")
     }
+    fun printABC(){
+        println("ABC")
+    }
 }
