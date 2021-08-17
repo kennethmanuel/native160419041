@@ -11,4 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "I am a Toast message", Toast.LENGTH_SHORT).show()
     }
+    fun callMe() {
+        println("Printing from callMe() function.")
+        println("This is cool (still printing from inside).")
+    }
 }
